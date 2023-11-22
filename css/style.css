@@ -62,6 +62,7 @@ img {
   --white: #fff;
   --seconderyBgColor: #f4f6fc;
   --thirdBgColor: #fcd9801a;
+  --Grey: #f4f6fc;
   --poppins: "Poppins", sans-serif;
   --Manrope: "Manrope", sans-serif;
 }
@@ -476,6 +477,189 @@ img {
   border-left: none;
   border-right: none;
 }
+
 /* =========================================================================================================
                                          Question part Css End Here
+===========================================================================================================*/
+
+/* =========================================================================================================
+                                         Footer part Css Start Here
+===========================================================================================================*/
+#footer-part {
+  background-color: var(--headerFooterColor);
+  padding-top: 100px;
+}
+
+#footer-part .footer-left p {
+  color: var(--White, #fff);
+  font-size: 16px;
+  opacity: 0.8;
+  font-weight: 500;
+  line-height: 28px;
+  padding-top: 22px;
+  padding-bottom: 86px;
+  padding-right: 20px;
+}
+
+#footer-part .footer-left .footer-contact {
+  background-color: var(--btnColor);
+  padding: 18px 37px;
+  column-gap: 29px;
+}
+
+#footer-part .footer-left .footer-contact h3 {
+  color: var(--primaryTextColor, #282938);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#footer-part .footer-left .footer-contact a {
+  color: var(--primaryTextColor, #282938);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#footer-part .footer-left .footer-contact a:hover {
+  text-decoration: underline;
+}
+
+#footer-part .footer-right h2 {
+  color: var(--white);
+  font-size: 48px;
+  font-weight: 600;
+  padding-bottom: 14px;
+}
+
+#footer-part .footer-right p {
+  color: var(--Grey, #f4f6fc);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
+  padding-bottom: 28px;
+  padding-right: 146px;
+}
+
+#footer-part .footer-right .footer-icon a {
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  background-color: #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  line-height: 31px;
+  border: 2px solid #fff;
+  text-align: center;
+  margin-right: 18px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+#footer-part .footer-right .footer-icon a:nth-child(1) {
+  color: #2f55a4;
+}
+
+#footer-part .footer-right .footer-icon a:nth-child(2) {
+  color: #1da1f2;
+}
+
+#footer-part .footer-right .footer-icon a:nth-child(3) {
+  color: #f56040;
+}
+
+#footer-part .footer-right .footer-icon a:nth-child(4) {
+  color: #0a66c2;
+}
+
+#footer-part .footer-right .footer-icon a:nth-child(1):hover {
+  background-color: #2f55a4;
+  color: #fff;
+  transform: translateY(15%);
+  -webkit-transform: translateY(15%);
+  -moz-transform: translateY(15%);
+  -ms-transform: translateY(15%);
+  -o-transform: translateY(15%);
+}
+
+#footer-part .footer-right .footer-icon a:nth-child(2):hover {
+  background-color: #1da1f2;
+  color: #fff;
+  transform: translateY(15%);
+  -webkit-transform: translateY(15%);
+  -moz-transform: translateY(15%);
+  -ms-transform: translateY(15%);
+  -o-transform: translateY(15%);
+}
+
+#footer-part .footer-right .footer-icon a:nth-child(3):hover {
+  background-color: #f56040;
+  color: #fff;
+  transform: translateY(15%);
+  -webkit-transform: translateY(15%);
+  -moz-transform: translateY(15%);
+  -ms-transform: translateY(15%);
+  -o-transform: translateY(15%);
+}
+
+#footer-part .footer-right .footer-icon a:nth-child(4):hover {
+  background-color: #0a66c2;
+  color: #fff;
+  transform: translateY(15%);
+  -webkit-transform: translateY(15%);
+  -moz-transform: translateY(15%);
+  -ms-transform: translateY(15%);
+  -o-transform: translateY(15%);
+}
+/* =========================================================================================================
+                                         Footer part Css End Here
+===========================================================================================================*/
+
+/* =========================================================================================================
+                                         Footer nav part Css Start Here
+===========================================================================================================*/
+
+/* #footer-nav {
+  padding: 25px 0;
+} */
+
+#footer-nav .custom-logo {
+  color: var(--primaryTextColor, #282938);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#footer-nav .custom-logo:hover {
+  text-decoration: underline;
+}
+
+#footer-nav .custom-nav ul li a {
+  color: var(--primaryTextColor, #282938);
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 25px;
+  transition: all linear 0.2s;
+  padding: 25px 10px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+#footer-nav .custom-nav ul li a:hover {
+  background-color: var(--btnColor);
+}
+
+/* =========================================================================================================
+                                         Footer nav part Css End Here
 ===========================================================================================================*/
